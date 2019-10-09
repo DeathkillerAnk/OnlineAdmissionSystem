@@ -206,7 +206,7 @@ function searchTable(inputVal)
                 //});
             });
             </script>
-      -->  
+      -->   
 
             
    <!--auto search-->       
@@ -365,16 +365,16 @@ include 'adminsession.php';
                      <input type='button' value='Form' name='adcard' class='toggle btn btn-primary'> </a></td>";
               
                 
-                echo "<td> 
+                // echo "<td> 
                    
-             <a href='appr.php?id=".$ar[0]."'> <button class='add_field_button'  style='background-color:transparent;border:none;' 
-                   name='appr' id='appr' >
-                    <img src='./images/Tick.png' width='20px'></img></button> </a> </td>";
+            //  <a href='appr.php?id=".$ar[0]."'> <button class='add_field_button'  style='background-color:transparent;border:none;' 
+            //        name='appr' id='appr' >
+            //         <img src='./images/Tick.png' width='20px'></img></button> </a> </td>";
                 
-                 echo "<td> <button class='add_field_button'  id='disapp' style='background-color:transparent;border:none;' name='disapp' >
-                     <img src='./images/cross.png' width='20px'></img>
-                </button> </td>";
-                 echo "</tr>";
+            //      echo "<td> <button class='add_field_button'  id='disapp' style='background-color:transparent;border:none;' name='disapp' >
+            //          <img src='./images/cross.png' width='20px'></img>
+            //     </button> </td>";
+            //      echo "</tr>";
                //  echo "<td> <a href='adminac.php?id=".$ar[0]."'><input type='button' value='Admit Card' name='adcard' class='toggle btn btn-primary'> </a></td>";
               //echo "</tr>";
 		}
