@@ -365,7 +365,7 @@ include 'adminsession.php';
                      <input type='button' value='Form' name='adcard' class='toggle btn btn-primary'> </a></td>";
               
                 
-                // echo "<td> 
+                // echo "<td> w
                    
             //  <a href='appr.php?id=".$ar[0]."'> <button class='add_field_button'  style='background-color:transparent;border:none;' 
             //        name='appr' id='appr' >

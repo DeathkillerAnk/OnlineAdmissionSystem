@@ -75,10 +75,10 @@ include 'usersession.php';
                 <tr>
                  <td style="width:3%;"><img src="./images/Logo-T.gif" width="50%"> </td>
                  <td style="width:8%;"><center><font style="font-family:Arial Black; font-size:20px;">
-                    CENTURION UNIVERSITY OF TECHNOLOGY AND MANAGEMENT, BHUBANESWAR - 752050, ODISHA</font></center>
+                    VJTI, MUMBAI</font></center>
                 
                 <center><font style="font-family:Verdana; font-size:18px;">
-                    Phone : (0674)2492496, Fax : (0674)2490480
+                    Phone : (0674)232342, Fax : (0674)2493480
                     </font></center>
                 
                 <br>

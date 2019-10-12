@@ -46,7 +46,7 @@ $result = mysqli_query($con,"SELECT * FROM t_user WHERE s_id='".$_SESSION['user'
                 <tr>
                  <td style="width:3%;"><img src="./images/Logo-T.gif" width="50%"> </td>
                  <td style="width:8%;"><center><font style="font-family:Arial Black; font-size:20px;">
-                    CENTURION UNIVERSITY OF TECHNOLOGY AND MANAGEMENT, BHUBANESWAR - 752050, ODISHA</font></center>
+                    VJTI, MUMBAI</font></center>
                 
                 <center><font style="font-family:Verdana; font-size:18px;">
                     Phone : (0674)2492496, Fax : (0674)2490480
@@ -105,11 +105,11 @@ $result = mysqli_query($con,"SELECT * FROM t_user WHERE s_id='".$_SESSION['user'
                  <tr>
                      <td style="width:4%;"> <font style="font-family: Verdana;">Exam Center  </font> </td>
                     <td style="width:8%;" colspan="3">
-                       <font style="font-family: Verdana; font-weight: bold"> Centurion Institute of Technology<br>
-                        At - Ramchandrapur<br>
-                        P.O - Jatni, Bhubaneswar<br>
+                       <font style="font-family: Verdana; font-weight: bold"> VJTI Institute of Technology<br>
+                        At - Mumbai<br>
+                        P.O - Matunga<br>
                         Dist: Khurda - 752050<br>
-                        Odisha, India<br>
+                        Maharashtra, India<br>
                         Phone: (0674)2492496<br>
                         </font>
                     </td>
