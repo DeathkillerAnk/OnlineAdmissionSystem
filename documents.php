@@ -16,6 +16,17 @@ include 'fileupload.php';
          <link rel="stylesheet" href="bootstrap/bootstrap-theme.min.css">
        <script src="bootstrap/jquery.min.js"></script>
         <script src="bootstrap/bootstrap.min.js"></script>
+
+        <!-- //added -->
+        <script src= 
+        "https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"> 
+        </script>
+
+
+ 
+
+        <!-- ADDED -->
+    
         
         <script type="text/javascript">
             
@@ -48,20 +59,57 @@ include 'fileupload.php';
                                        Upload Your Documents </font>
                                        <font color = "red" > (File size : 2MB) </font>
                                            </th>
-                                        </tr>           
+                                        </tr>   
+                                                
                             </thead>
                             <tbody>
                             <tr>
                                  <td>Passport Size Image </td>
-                                 <td><input type="file" id="fpic" name="fpic" ><br>
-                                     </td>
+                                <td>
+                                    <p id="GFG_UP1" style= 
+                                        "font-size: 12px; font-weight: bold;"> 
+                                    </p> 
+
+                                    <input type="file" id="fpic" name="fpic" ><br>
+
+                                    <p id="GFG_DOWN1" style= 
+                                        "color:green; font-size: 15px; font-weight: bold;"> 
+                                    </p>
+                                    <script> 
+                                        $('#GFG_UP1').text("Choose file from system to get the fileSize"); 
+                                        $('#fpic').on('change', function() { 
+                                            if (this.files[0].size > 2097152) { 
+                                                alert("Try to upload file less than 2MB!"); 
+                                            } else { 
+                                                $('#GFG_DOWN1').text(this.files[0].size + "bytes"); 
+                                            } 
+                                        }); 
+                                    </script>
+                                </td>
+
                             </tr> 
                            
                              <tr>
                                 <td>10th Mark Sheet </td>
                                 <td>
+                                <p id="GFG_UP2" style= 
+                                        "font-size: 12px; font-weight: bold;"> 
+                                </p>
+
                                      <input type="file" id="ftndoc" name="ftndoc"><br>
-                                     
+                                     <p id="GFG_DOWN2" style= 
+                                        "color:green; font-size: 15px; font-weight: bold;"> 
+                                    </p>
+                                    <script> 
+                                        $('#GFG_UP2').text("Choose file from system to get the fileSize"); 
+                                        $('#ftndoc').on('change', function() { 
+                                            if (this.files[0].size > 2097152) { 
+                                                alert("Try to upload file less than 2MB!"); 
+                                            } else { 
+                                                $('#GFG_DOWN2').text(this.files[0].size + "bytes"); 
+                                            } 
+                                        }); 
+                                    </script>
                                  </td>
                              </tr>
                              
@@ -70,8 +118,24 @@ include 'fileupload.php';
                                      10th Certificate 
                                  </td>
                                  <td>
+                                 <p id="GFG_UP3" style= 
+                                        "font-size: 12px; font-weight: bold;"> 
+                                </p>
                                      <input type="file" id="ftcdoc" name="ftcdoc"><br>
-                                     
+
+                                     <p id="GFG_DOWN3" style= 
+                                        "color:green; font-size: 15px; font-weight: bold;"> 
+                                    </p>
+                                    <script> 
+                                        $('#GFG_UP3').text("Choose file from system to get the fileSize"); 
+                                        $('#ftcdoc').on('change', function() { 
+                                            if (this.files[0].size > 2097152) { 
+                                                alert("Try to upload file less than 2MB!"); 
+                                            } else { 
+                                                $('#GFG_DOWN3').text(this.files[0].size + "bytes"); 
+                                            } 
+                                        }); 
+                                    </script>
                                  </td>
                              </tr>
                               
@@ -79,11 +143,26 @@ include 'fileupload.php';
                                  <td>
                                      12th/Diploma Mark Sheet 
                                  </td>
-                             
+                                    
                             
                                  <td>
+                                 <p id="GFG_UP4" style= 
+                                        "font-size: 12px; font-weight: bold;"> 
+                                </p>
                                      <input type="file" id="fdmdoc" name="fdmdoc"><br>
-                                     
+                                     <p id="GFG_DOWN4" style= 
+                                        "color:green; font-size: 15px; font-weight: bold;"> 
+                                    </p>
+                                    <script> 
+                                        $('#GFG_UP4').text("Choose file from system to get the fileSize"); 
+                                        $('#fdmdoc').on('change', function() { 
+                                            if (this.files[0].size > 2097152) { 
+                                                alert("Try to upload file less than 2MB!"); 
+                                            } else { 
+                                                $('#GFG_DOWN4').text(this.files[0].size + "bytes"); 
+                                            } 
+                                        }); 
+                                    </script>
                                  </td>
                              </tr>
                              <tr>
@@ -91,7 +170,26 @@ include 'fileupload.php';
                                     12th/Diploma Certificate 
                                 </td>
                              
-                                <td><input type="file" id="fdcdoc" name="fdcdoc"><br>
+                                <td>
+                                <p id="GFG_UP5" style= 
+                                        "font-size: 12px; font-weight: bold;"> 
+                                </p>
+
+                                <input type="file" id="fdcdoc" name="fdcdoc"><br>
+
+                                <p id="GFG_DOWN5" style= 
+                                        "color:green; font-size: 15px; font-weight: bold;"> 
+                                    </p>
+                                    <script> 
+                                        $('#GFG_UP5').text("Choose file from system to get the fileSize"); 
+                                        $('#fdcdoc').on('change', function() { 
+                                            if (this.files[0].size > 2097152) { 
+                                                alert("Try to upload file less than 2MB!"); 
+                                            } else { 
+                                                $('#GFG_DOWN5').text(this.files[0].size + "bytes"); 
+                                            } 
+                                        }); 
+                                    </script>
                                  </td>
                              </tr>
                              
@@ -101,8 +199,23 @@ include 'fileupload.php';
                                 </td>
                             
                                  <td>
+                                 <p id="GFG_UP6" style= 
+                                        "font-size: 12px; font-weight: bold;"> 
+                                </p>
                                     <input type="file" id="fide" name="fide"><br>
-                                 
+                                    <p id="GFG_DOWN6" style= 
+                                        "color:green; font-size: 15px; font-weight: bold;"> 
+                                    </p>
+                                    <script> 
+                                        $('#GFG_UP6').text("Choose file from system to get the fileSize"); 
+                                        $('#fide').on('change', function() { 
+                                            if (this.files[0].size > 2097152) { 
+                                                alert("Try to upload file less than 2MB!"); 
+                                            } else { 
+                                                $('#GFG_DOWN6').text(this.files[0].size + "bytes"); 
+                                            } 
+                                        }); 
+                                    </script>
                                 </td>
                             </tr> 
                             
@@ -112,8 +225,23 @@ include 'fileupload.php';
                                 </td>
                             
                                  <td>
+                                 <p id="GFG_UP7" style= 
+                                        "font-size: 12px; font-weight: bold;"> 
+                                </p>
                                     <input type="file" id="fsig" name="fsig"><br>
-                                 
+                                    <p id="GFG_DOWN7" style= 
+                                        "color:green; font-size: 15px; font-weight: bold;"> 
+                                    </p>
+                                    <script> 
+                                        $('#GFG_UP7').text("Choose file from system to get the fileSize"); 
+                                        $('#fsig').on('change', function() { 
+                                            if (this.files[0].size > 2097152) { 
+                                                alert("Try to upload file less than 2MB!"); 
+                                            } else { 
+                                                $('#GFG_DOWN7').text(this.files[0].size + "bytes"); 
+                                            } 
+                                        }); 
+                                    </script>
                                 </td>
                             </tr>
                             
